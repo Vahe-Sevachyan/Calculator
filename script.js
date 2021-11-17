@@ -7,6 +7,8 @@ let firstValue = 0;
 let operatorValue = 0;
 let awaitingNextValue = false;
 
+const sendNumberValue
+
 const sendNumberValue = (number) => {
   const displayValue = calculatorDisplay.textContent;
   calculatorDisplay.textContent =
@@ -20,10 +22,12 @@ const addDecimal = () => {
 };
 
 const userOperator = (operator) => {
-  const currentValue = Number(calculatorDisplay.textContent);
+  const currentValue = Number(calculatorDisplay.textContent);\
+  //assign first value if no value available*
   if (!firstValue) {
     firstValue = currentValue;
   }
+  //ready for next value, store operator
   operatorValue = operator;
   console.log("fistValue", firstValue);
   console.log("operator", operatorValue);
