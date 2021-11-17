@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(160, 155, 155);
 }
 
 .calculator {
@@ -85,7 +86,7 @@ body {
 
 .equal-sign {
   grid-column: -2;
-  grid-row: 2/span 4;
+  grid-row: 2 / span 4;
   background: #0dce57;
   color: white;
   font-size: 4rem;
@@ -113,4 +114,4 @@ button:focus {
   .calculator {
     width: 95%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
